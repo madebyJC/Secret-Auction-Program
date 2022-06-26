@@ -28,7 +28,7 @@ while bidding == True:
   user_continue = input("Are there any other bidders? Type \"yes\" or \"no\"\n").lower()
   if user_continue == "yes":
     clear()
-    print(logo + "\n")
+    print(logo)
   elif user_continue == "no":
     bidding = False
     highest_bidder(bidding_record=bid)
